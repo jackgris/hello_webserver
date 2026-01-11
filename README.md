@@ -2,7 +2,7 @@
 
 A simple multithreaded web server in **Rust**, based on **Chapter 20: Final Project: Building a Multithreaded Web Server** of *The Rust Programming Language* book.
 
-This project implements a basic HTTP web server that listens for connections, parses requests, and serves static HTML content. It’s intended as a learning project and not a production-ready server. :contentReference[oaicite:1]{index=1}
+This project implements a basic HTTP web server that listens for connections, parses requests, and serves static HTML content. It’s intended as a learning project and not a production-ready server.
 
 ## 🚀 Overview
 
@@ -13,7 +13,7 @@ This repository contains the source code for a minimal web server that:
 - Responds with static HTML pages
 - Uses a thread pool to process connections concurrently
 
-The implementation follows the patterns described in the Rust Book’s final project, focusing on understanding how a basic web server works under the hood. :contentReference[oaicite:2]{index=2}
+The implementation follows the patterns described in the Rust Book’s final project, focusing on understanding how a basic web server works under the hood.
 
 ## 📁 Repository Structure
 
@@ -25,6 +25,7 @@ hello_webserver/
 ├── hello.html
 ├── 404.html
 └── .gitignore
+```
 
 - `src/main.rs` — core Rust code implementing the web server
 - `hello.html` — example HTML file served at the root
